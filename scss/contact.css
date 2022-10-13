@@ -1,0 +1,116 @@
+.contact {
+  max-width: 1280px;
+  min-height: 892px;
+  display: flex;
+  background-color: white;
+}
+.contact .booking-wrapper {
+  min-width: 100px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.contact .booking-wrapper h1 {
+  font-size: 60px;
+}
+.contact .booking-wrapper .space-input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 21px;
+}
+.contact .booking-wrapper .space-input input {
+  min-width: 344px;
+  min-height: 58px;
+}
+.contact .booking-wrapper .long-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.contact .booking-wrapper .long-input input {
+  min-width: 650px;
+  min-height: 58px;
+}
+.contact .booking-wrapper .tri-input {
+  max-width: 100%;
+  max-height: 58px;
+  display: flex;
+  flex-direction: row;
+}
+.contact .booking-wrapper .tri-input .left {
+  width: 33.3%;
+  height: 58px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact .booking-wrapper .tri-input .left input {
+  max-width: 103px;
+  min-height: 58px;
+}
+.contact .booking-wrapper .tri-input .mid {
+  max-width: 33.3%;
+  max-height: 58px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact .booking-wrapper .tri-input .mid input {
+  width: 103px;
+  height: 58px;
+}
+.contact .booking-wrapper .tri-input .right {
+  width: 33.3%;
+  height: 58px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact .booking-wrapper .tri-input .right input {
+  max-width: 103px;
+  min-height: 58px;
+}
+.contact .booking-wrapper .textBox {
+  max-width: 818px;
+  max-height: 192px;
+  display: flex;
+  padding-top: 20px;
+}
+.contact .booking-wrapper .textBox input {
+  width: 818px;
+  height: 192px;
+}
+.contact .booking-wrapper .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 818px;
+  max-height: 60px;
+  padding-top: 60px;
+}
+.contact .booking-wrapper .button button {
+  width: 813px;
+  height: 60px;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  border: none;
+  padding: 11px 21px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact {
+    min-height: 100px;
+  }
+  .contact .booking-wrapper .space-input {
+    min-width: 100px;
+    min-height: fit-content;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .home .imageSection .imageHolder {
+    flex-direction: column;
+    min-height: fit-content;
+  }
+}
